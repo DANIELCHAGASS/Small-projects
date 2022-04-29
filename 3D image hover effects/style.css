@@ -1,0 +1,22 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.box{
+    text-align: center;
+    perspective: 1000px;
+}
+img{
+    transition: all 1s ease-in-out ;
+    transform: rotateY(-45deg);
+    box-shadow:  10px 1px 5px 0px #00000035;
+}
+
+img:hover{
+    transform: rotateY(45deg);
+    box-shadow: -10px 1px 5px 0px #00000035;
+}
